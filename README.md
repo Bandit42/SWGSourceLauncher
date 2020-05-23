@@ -14,7 +14,6 @@ Welcome to the SWGSource Launcher Project. This project is OPEN SOURCE with a co
 
 3. Join our SWGSource discord at: https://discord.gg/Va8e6n8
 4. And last but not least, our SWGSource Wiki Link: https://github.com/SWG-Source/swg-main/wiki
-
 I would like to thank Tekaoh from SWGSource for giving me some ideas and testing out the launcher.
 I would also like to thank the crew at SWGSource for all the hard work they are doing to re-build a game that6 everyone loved and enjoyed so much.
 -------------------------------------------------------------------------
