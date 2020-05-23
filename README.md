@@ -16,7 +16,6 @@ Welcome to the SWGSource Launcher Project. This project is OPEN SOURCE with a co
 I would like to thank Tekaoh from SWGSource for giving me some ideas and testing out the launcher.
 I would also like to thank the crew at SWGSource for all the hard work they are doing to re-build a game that6 everyone loved and enjoyed so much.
 -------------------------------------------------------------------------
-
 When it comes to the webbrowser on the launcher, you will also ahve to create an html page and host that page to get the browser to display the html page content.
 You will need Visual Studio 2019 Community (free)
 You will also need to Visual Studio Code (for webpage development for webbrowser within launcher).
@@ -24,11 +23,8 @@ You need tghe following NuGet. Both are wrappers for the launcher:
 Awesomium (recommended)
 CefSharp
 --------------------------------------------------------------------------
-
 Enjoy this project and May the Force be with you, Always!!!!
-
 --------------------------------------------------------------------------
-
 Things this project could use:
 A file checker to check for corrupt files
 An updater and game version control to download updated client files from your hosted client files
