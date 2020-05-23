@@ -1,7 +1,6 @@
 # SWGSourceLauncher
 5/22/2020
 SWGSource Game Launcher by Bandit aka Aphe Cloudstryder (Flurry)
-
 Changelog v0.1
 -------------------------------------------------------------------------
 Initial Upload of Launcher Project
@@ -23,7 +22,6 @@ When it comes to the webbrowser on the launcher, you will also ahve to create an
 You will need Visual Studio 2019 Community (free)
 You will also need to Visual Studio Code (for webpage development for webbrowser within launcher).
 You need tghe following NuGet. Both are wrappers for the launcher:
-
 Awesomium (recommended)
 CefSharp
 --------------------------------------------------------------------------
