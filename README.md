@@ -33,3 +33,9 @@ A file checker to check for corrupt files
 An updater and game version control to download updated client files from your hosted client files
 Install/file checker progress bar with filename progress
 Any Future Suggestions for the launcher are greatly appreciated.
+
+Video Tutorial that was used to make this game launcher:
+https://www.youtube.com/watch?v=tDopNcE9lOU
+
+Tekaoh also has a wonderful link to his wiki to create a server using VirtualBox and at the bottom is a link to create a website using wordpress and his wordpress plugin (I made a barebones server following his guides and i absolutely love it):
+https://tekaohswg.github.io/new.html
