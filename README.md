@@ -24,8 +24,8 @@ You will need Visual Studio 2019 Community (free)
 You will also need to Visual Studio Code (for webpage development for webbrowser within launcher).
 You need tghe following NuGet. Both are wrappers for the launcher:
 
-Awesomium (recommended).
-CefSharp.
+Awesomium (recommended)
+CefSharp
 
 Enjoy this project and May the Force be with you, Always!!!!
 
