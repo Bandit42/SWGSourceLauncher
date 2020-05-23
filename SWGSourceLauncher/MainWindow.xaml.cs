@@ -34,5 +34,10 @@ namespace SWGSourceLauncher
         {
             Launcher.LaunchWebsite("https://github.com/SWG-Source/swg-main/wiki/");
         }
+
+        private void LaunchUpdatesButton_Click(object sender, RoutedEventArgs e)
+        {
+            Launcher.Update();
+        }
     }
 }

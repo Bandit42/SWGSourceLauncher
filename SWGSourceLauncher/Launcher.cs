@@ -17,6 +17,11 @@ namespace SWGSourceLauncher
         public static void LaunchWebsite(string url)
         {
             Process.Start(url);
-        } 
+        }
+
+        public static void Update()
+        {
+            Process.Start("SWGSourceUpdater.exe");
+        }
     }
 }
