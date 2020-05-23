@@ -11,7 +11,7 @@ Initial Upload of Launcher Project
 Welcome to the SWGSource Launcher Project. This project is OPEN SOURCE with a couple of rules:
 1. Please be sure to give credit where credit is due to those who have contributed to the project and those that have provided assistance to this project.
 
-2. This project is still a work in progress and with my limited experience, I can only do so much to make this project work presently and in the future and due to that, this project was created by following a video tutorial. This project could use a lot of help and skills from experienced programers/coders, etc who have done game launcher projects like this before. Don't be afraid to dive in and see what you can do for the project.
+2. This project is still a work in progress and with my limited experience, I can only do so much to make this project work presently and in the future and due to that, this project was created by following a video tutorial. This project could use a lot of help and skills from experienced programers/coders, etc who have done game launcher projects like this before. Don't be afraid to dive in and see what you can do for the project. Share your ideas and experience with others.
 
 3. Join our SWGSource discord at: https://discord.gg/Va8e6n8
 4. And last but not least, our SWGSource Wiki Link: https://github.com/SWG-Source/swg-main/wiki
