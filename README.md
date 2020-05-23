@@ -22,7 +22,9 @@ I would also like to thank the crew at SWGSource for all the hard work they are 
 When it comes to the webbrowser on the launcher, you will also have to create an html page and host that page to get the browser to display the html page content.
 
 You will need Visual Studio 2019 Community (free).
+
 You will also need to Visual Studio Code (for webpage development for webbrowser within launcher).
+
 You need the following NuGet. Both are wrappers for the launcher:
 
 Awesomium (recommended)
