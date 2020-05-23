@@ -34,10 +34,15 @@ CefSharp
 Enjoy this project and May the Force be with you, Always!!!!
 
 Things this project could use:
+
 A file checker to check for corrupt files.
+
 An updater and game version control to download updated client files from your hosted client files.
+
 Install/file checker progress bar with filename progress.
+
 A Server Population and a Max record population.
+
 Any Future Suggestions for the launcher are greatly appreciated.
 
 Video Tutorial that was used to make this game launcher:
