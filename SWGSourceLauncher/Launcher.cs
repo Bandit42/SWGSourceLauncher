@@ -21,7 +21,7 @@ namespace SWGSourceLauncher
 
         public static void Update()
         {
-            Process.Start("SWGSourceUpdater.exe");
+            Process.Start("UpdateSwgClient.bat");
         }
     }
 }
