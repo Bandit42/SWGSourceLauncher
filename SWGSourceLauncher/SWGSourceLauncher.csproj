@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\CefSharp.WinForms.79.1.360\build\CefSharp.WinForms.props" Condition="Exists('..\packages\CefSharp.WinForms.79.1.360\build\CefSharp.WinForms.props')" />
-  <Import Project="..\packages\CefSharp.OffScreen.79.1.360\build\CefSharp.OffScreen.props" Condition="Exists('..\packages\CefSharp.OffScreen.79.1.360\build\CefSharp.OffScreen.props')" />
-  <Import Project="..\packages\CefSharp.Wpf.79.1.360\build\CefSharp.Wpf.props" Condition="Exists('..\packages\CefSharp.Wpf.79.1.360\build\CefSharp.Wpf.props')" />
-  <Import Project="..\packages\CefSharp.Common.79.1.360\build\CefSharp.Common.props" Condition="Exists('..\packages\CefSharp.Common.79.1.360\build\CefSharp.Common.props')" />
-  <Import Project="..\packages\cef.redist.x86.79.1.36\build\cef.redist.x86.props" Condition="Exists('..\packages\cef.redist.x86.79.1.36\build\cef.redist.x86.props')" />
-  <Import Project="..\packages\cef.redist.x64.79.1.36\build\cef.redist.x64.props" Condition="Exists('..\packages\cef.redist.x64.79.1.36\build\cef.redist.x64.props')" />
+  <Import Project="..\packages\CefSharp.Common.96.0.180\build\CefSharp.Common.props" Condition="Exists('..\packages\CefSharp.Common.96.0.180\build\CefSharp.Common.props')" />
+  <Import Project="..\packages\cef.redist.x86.96.0.18\build\cef.redist.x86.props" Condition="Exists('..\packages\cef.redist.x86.96.0.18\build\cef.redist.x86.props')" />
+  <Import Project="..\packages\cef.redist.x64.96.0.18\build\cef.redist.x64.props" Condition="Exists('..\packages\cef.redist.x64.96.0.18\build\cef.redist.x64.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -73,6 +70,21 @@
     </Reference>
     <Reference Include="Awesomium.Windows.Forms, Version=1.7.5.0, Culture=neutral, PublicKeyToken=9bd24830fbe304a0, processorArchitecture=x86">
       <HintPath>..\packages\Awesomium.NetWrapper.Unofficial.fix.1.7.5.01\lib\net45\Packed\Awesomium.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="CefSharp, Version=96.0.180.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=MSIL">
+      <HintPath>..\packages\CefSharp.Common.96.0.180\lib\net452\CefSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="CefSharp.Core, Version=96.0.180.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=MSIL">
+      <HintPath>..\packages\CefSharp.Common.96.0.180\lib\net452\CefSharp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CefSharp.OffScreen, Version=96.0.180.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=MSIL">
+      <HintPath>..\packages\CefSharp.OffScreen.96.0.180\lib\net462\CefSharp.OffScreen.dll</HintPath>
+    </Reference>
+    <Reference Include="CefSharp.WinForms, Version=96.0.180.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=MSIL">
+      <HintPath>..\packages\CefSharp.WinForms.96.0.180\lib\net462\CefSharp.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="CefSharp.Wpf, Version=96.0.180.0, Culture=neutral, PublicKeyToken=40c4b6fc221f4138, processorArchitecture=MSIL">
+      <HintPath>..\packages\CefSharp.Wpf.96.0.180\lib\net462\CefSharp.Wpf.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -144,21 +156,12 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\cef.redist.x64.79.1.36\build\cef.redist.x64.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\cef.redist.x64.79.1.36\build\cef.redist.x64.props'))" />
-    <Error Condition="!Exists('..\packages\cef.redist.x86.79.1.36\build\cef.redist.x86.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\cef.redist.x86.79.1.36\build\cef.redist.x86.props'))" />
-    <Error Condition="!Exists('..\packages\CefSharp.Common.79.1.360\build\CefSharp.Common.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.Common.79.1.360\build\CefSharp.Common.props'))" />
-    <Error Condition="!Exists('..\packages\CefSharp.Common.79.1.360\build\CefSharp.Common.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.Common.79.1.360\build\CefSharp.Common.targets'))" />
-    <Error Condition="!Exists('..\packages\CefSharp.Wpf.79.1.360\build\CefSharp.Wpf.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.Wpf.79.1.360\build\CefSharp.Wpf.props'))" />
-    <Error Condition="!Exists('..\packages\CefSharp.Wpf.79.1.360\build\CefSharp.Wpf.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.Wpf.79.1.360\build\CefSharp.Wpf.targets'))" />
-    <Error Condition="!Exists('..\packages\CefSharp.OffScreen.79.1.360\build\CefSharp.OffScreen.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.OffScreen.79.1.360\build\CefSharp.OffScreen.props'))" />
-    <Error Condition="!Exists('..\packages\CefSharp.OffScreen.79.1.360\build\CefSharp.OffScreen.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.OffScreen.79.1.360\build\CefSharp.OffScreen.targets'))" />
-    <Error Condition="!Exists('..\packages\CefSharp.WinForms.79.1.360\build\CefSharp.WinForms.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.WinForms.79.1.360\build\CefSharp.WinForms.props'))" />
-    <Error Condition="!Exists('..\packages\CefSharp.WinForms.79.1.360\build\CefSharp.WinForms.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.WinForms.79.1.360\build\CefSharp.WinForms.targets'))" />
+    <Error Condition="!Exists('..\packages\cef.redist.x64.96.0.18\build\cef.redist.x64.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\cef.redist.x64.96.0.18\build\cef.redist.x64.props'))" />
+    <Error Condition="!Exists('..\packages\cef.redist.x86.96.0.18\build\cef.redist.x86.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\cef.redist.x86.96.0.18\build\cef.redist.x86.props'))" />
+    <Error Condition="!Exists('..\packages\CefSharp.Common.96.0.180\build\CefSharp.Common.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.Common.96.0.180\build\CefSharp.Common.props'))" />
+    <Error Condition="!Exists('..\packages\CefSharp.Common.96.0.180\build\CefSharp.Common.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\CefSharp.Common.96.0.180\build\CefSharp.Common.targets'))" />
   </Target>
-  <Import Project="..\packages\CefSharp.Common.79.1.360\build\CefSharp.Common.targets" Condition="Exists('..\packages\CefSharp.Common.79.1.360\build\CefSharp.Common.targets')" />
-  <Import Project="..\packages\CefSharp.Wpf.79.1.360\build\CefSharp.Wpf.targets" Condition="Exists('..\packages\CefSharp.Wpf.79.1.360\build\CefSharp.Wpf.targets')" />
-  <Import Project="..\packages\CefSharp.OffScreen.79.1.360\build\CefSharp.OffScreen.targets" Condition="Exists('..\packages\CefSharp.OffScreen.79.1.360\build\CefSharp.OffScreen.targets')" />
-  <Import Project="..\packages\CefSharp.WinForms.79.1.360\build\CefSharp.WinForms.targets" Condition="Exists('..\packages\CefSharp.WinForms.79.1.360\build\CefSharp.WinForms.targets')" />
+  <Import Project="..\packages\CefSharp.Common.96.0.180\build\CefSharp.Common.targets" Condition="Exists('..\packages\CefSharp.Common.96.0.180\build\CefSharp.Common.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
