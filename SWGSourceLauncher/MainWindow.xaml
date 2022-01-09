@@ -21,7 +21,7 @@
             <ColumnDefinition Width="132*"/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
-        <WebBrowser Margin="10,42,10,69" Grid.ColumnSpan="4" Source="https://swg-source.github.io/hello-launcher.html"/>
+        <WebBrowser Margin="10,42,10,69" Grid.ColumnSpan="4" Source="https://swg-source.github.io"/>
         <Button x:Name="LaunchGameButton" Content="Launch Game" Margin="126,438,122,20" Background="#FF27B608" BorderThickness="0" FontWeight="Bold" RenderTransformOrigin="-0.204,0.453" Grid.ColumnSpan="2" Click="LaunchGameButton_Click" Grid.Column="1"/>
         <Button x:Name="LaunchWebsiteButton" Content="View Website Wiki" Margin="10,438,3,20" Background="#FFDDDDDD" BorderThickness="0" FontWeight="Bold" IsDefault="True" Click="LaunchWebsiteButton_Click"/>
         <Button x:Name="LaunchUpdatesButton" Content="Check for Updates" Margin="10,438,20,20" Background="#FFDDDDDD" BorderThickness="0" FontWeight="Bold" Grid.Column="3" Click="LaunchUpdatesButton_Click" IsDefault="True" IsEnabled="False"/>
